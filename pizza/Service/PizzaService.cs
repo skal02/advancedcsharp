@@ -9,25 +9,38 @@ namespace pizza.Service
     {
         public List<PizzaDto> GetPizzas()
         {
-            var pizzas = convertPizza(PizzaRepository.GetPizzas());
-            return pizzas;
+            return PizzaRepository.GetPizzas()
+                .Select(p => new PizzaDto(p.Id, p.Name, p.Description,  PriceService.Get(p.Price))).ToList();
         }
-        
+
         public PizzaDto GetPizzas(int id)
         {
-            var pizzas = convertPizza(PizzaRepository.GetPizzas());
-            return pizzas.First();
+            return PizzaRepository.GetPizzas()
+                .Where(p => p.Id == id)
+                .Select(p => new PizzaDto(p.Id, p.Name, p.Description,  PriceService.Get(p.Price)))
+                .FirstOrDefault();
         }
-        private List<PizzaDto> convertPizza(List<Pizza> pizzas)
+        
+        public PizzaDto GetPizzas(String name)
         {
-            var outputPizzas = new List<PizzaDto>();
-            foreach (var pizza in pizzas)
-            {
-                var p = new PizzaDto(pizza.Name);
-                outputPizzas.Add(p);
-            }
-
-            return outputPizzas;
+            return convertToDto(
+                    PizzaRepository.GetPizzas()
+                        .Where(p => p.Name == name) 
+                        //.Select(p => new PizzaDto(p.Id, p.Name, p.Description, p.Price))
+                        .Select(p => p)
+                        .FirstOrDefault()
+                );
+        }
+        
+        private PizzaDto convertToDto(Pizza pizza)
+        {
+            if (pizza == null) return null;
+            
+            return new PizzaDto(
+                pizza.Id, 
+                pizza.Name, 
+                pizza.Description, 
+                PriceService.Get(pizza.Price));
         }
     }
 }

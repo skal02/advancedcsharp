@@ -17,14 +17,30 @@ namespace pizza.Controllers
         
         [HttpGet]
         [Route("{id:int:min(1)}")]
-        public ActionResult Get(int id)
+        public ActionResult<PizzaDto> Get(int id)
         {
-            if (id != 1)
+            var pizza = _pizzaService.GetPizzas(id);
+            
+            if (pizza is null)
             {
                 return NotFound();
             }
             
-            return Ok(_pizzaService.GetPizzas(1).ToString());
+            return Ok(_pizzaService.GetPizzas(id));
+        }
+        
+        [HttpGet]
+        [Route("{name}")]
+        public ActionResult<PizzaDto> Get(string name)
+        {
+            var pizza = _pizzaService.GetPizzas(name);
+            
+            if (pizza is null)
+            {
+                return NotFound();
+            }
+            
+            return Ok(_pizzaService.GetPizzas(name));
         }
     }
 }

@@ -32,6 +32,7 @@
         <e p="Service" t="Include">
           <e p="PizzaDto.cs" t="Include" />
           <e p="PizzaService.cs" t="Include" />
+          <e p="PriceService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
       </e>

@@ -24,46 +24,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f33c3369-a663-417b-ba78-bfaaa0c748d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csharpadvanced.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mono_crash.11a6748113.0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/csharpadvanced.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/csharpadvanced.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/csharpadvanced.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/csharpadvanced.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/csharpadvanced.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/bin/Debug/netcoreapp3.1/pizza.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/bin/Debug/netcoreapp3.1/pizza.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pizza/Service/PriceService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza/Controllers/PizzaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/Controllers/PizzaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza/Domain/Pizza.cs" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/Domain/Pizza.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza/Domain/PizzaRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/Domain/PizzaRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza/Service/PizzaDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/Service/PizzaDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza/Service/PizzaService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/Service/PizzaService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza/bin/Debug/netcoreapp3.1/pizza.dll" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/bin/Debug/netcoreapp3.1/pizza.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza/bin/Debug/netcoreapp3.1/pizza.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/bin/Debug/netcoreapp3.1/pizza.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.dll" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/obj/pizza.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/pizza.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +56,14 @@
       <list>
         <option value="$PROJECT_DIR$/pizza/WeatherForecast.cs" />
         <option value="$PROJECT_DIR$/pizza/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/pizza/Domain/PizzaRepository.cs" />
+        <option value="$PROJECT_DIR$/pizza/Controllers/PizzaController.cs" />
+        <option value="$PROJECT_DIR$/pizza/Service/Price.cs" />
+        <option value="$PROJECT_DIR$/pizza/Extension/ExtensionMethods.cs" />
+        <option value="$PROJECT_DIR$/pizza/Domain/Pizza.cs" />
+        <option value="$PROJECT_DIR$/pizza/Service/PizzaDto.cs" />
+        <option value="$PROJECT_DIR$/pizza/Service/PriceService.cs" />
+        <option value="$PROJECT_DIR$/pizza/Service/PizzaService.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +78,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -125,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602147340520</updated>
-      <workItem from="1602147344912" duration="300000" />
+      <workItem from="1602147344912" duration="9142000" />
     </task>
     <servers />
   </component>
@@ -153,13 +134,58 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1280.800/0.0.1440.900@0.0.1440.900" timestamp="1602147645694" />
+    <state width="1398" height="45" key="GridCell.Tab.0.bottom" timestamp="1602160158147">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1602154262374" />
+    <state width="1398" height="45" key="GridCell.Tab.0.bottom/1440.0.1280.800/0.0.1440.900@0.0.1440.900" timestamp="1602160158147" />
+    <state width="1398" height="45" key="GridCell.Tab.0.center" timestamp="1602160158145">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1602154262373" />
+    <state width="1398" height="45" key="GridCell.Tab.0.center/1440.0.1280.800/0.0.1440.900@0.0.1440.900" timestamp="1602160158145" />
+    <state width="1398" height="45" key="GridCell.Tab.0.left" timestamp="1602160158144">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1602154262372" />
+    <state width="1398" height="45" key="GridCell.Tab.0.left/1440.0.1280.800/0.0.1440.900@0.0.1440.900" timestamp="1602160158144" />
+    <state width="1398" height="45" key="GridCell.Tab.0.right" timestamp="1602160158146">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1602154262373" />
+    <state width="1398" height="45" key="GridCell.Tab.0.right/1440.0.1280.800/0.0.1440.900@0.0.1440.900" timestamp="1602160158146" />
     <state x="320" y="189" key="Rider.ProjectTemplateDialog.Size" timestamp="1602147496458">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="189" key="Rider.ProjectTemplateDialog.Size/1440.0.1280.800/0.0.1440.900@0.0.1440.900" timestamp="1602147496458" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1602147364504">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1602153997230">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1602153997230" />
     <state x="221" y="89" key="SettingsEditor/1440.0.1280.800/0.0.1440.900@0.0.1440.900" timestamp="1602147364504" />
+    <state x="100" y="100" width="1240" height="700" key="VCS.FileHistoryDialog" timestamp="1602160080044">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="VCS.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1602154112123" />
+    <state x="100" y="100" width="1240" height="700" key="VCS.FileHistoryDialog/1440.0.1280.800/0.0.1440.900@0.0.1440.900" timestamp="1602160080044" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/pizza/Controllers/PizzaController.cs</url>
+          <line>20</line>
+          <properties documentPath="$PROJECT_DIR$/pizza/Controllers/PizzaController.cs" initialLine="20">
+            <startOffsets>
+              <option value="513" />
+            </startOffsets>
+            <endOffsets>
+              <option value="514" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
