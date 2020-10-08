@@ -1,0 +1,5 @@
+/Users/pascal.m/Projects/courses/csharpadvanced/csharpadvanced/obj/Debug/netcoreapp3.1/csharpadvanced.csprojAssemblyReference.cache
+/Users/pascal.m/Projects/courses/csharpadvanced/csharpadvanced/obj/Debug/netcoreapp3.1/csharpadvanced.AssemblyInfoInputs.cache
+/Users/pascal.m/Projects/courses/csharpadvanced/csharpadvanced/obj/Debug/netcoreapp3.1/csharpadvanced.AssemblyInfo.cs
+/Users/pascal.m/Projects/courses/csharpadvanced/csharpadvanced/obj/Debug/netcoreapp3.1/csharpadvanced.csproj.CoreCompileInputs.cache
+/Users/pascal.m/Projects/courses/csharpadvanced/csharpadvanced/obj/Debug/netcoreapp3.1/csharpadvanced.MvcApplicationPartsAssemblyInfo.cache
