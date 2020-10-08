@@ -11,27 +11,27 @@ namespace pizza.Domain
 
             pizzas.Add(new Pizza(
                 1,
-                "Hawaian", 
-                "Sauce tomate, mozzarella, oignons, merguez, poivrons mélangés", 
-                9));
+                "hawaian", 
+                "Sauce tomate, mozzarella, poulet, oignons, ananas, poivrons mélangés", 
+                0));
             
             pizzas.Add(new Pizza(
                 2,
                 "4 fromages", 
-                "Sauce tomate, mozzarella, oignons, merguez, poivrons mélangés", 
-                9));
+                "Sauce tomate, mozzarella, oignons, chèvre, poivrons mélangés", 
+                15));
             
             pizzas.Add(new Pizza(
                 3,
-                "Orientale", 
+                "orientale", 
                 "Sauce tomate, mozzarella, oignons, merguez, poivrons mélangés", 
-                9));
+                12));
             
             pizzas.Add(new Pizza(
                 4,
-                "VEGAN PEPPINA PIZZAS", 
+                "vegan", 
                 "Sauce tomate, râpé vegan, champignons, oignons, poivrons mélangés, olives noires, tomates fraîches, origan", 
-                9));
+                25));
 
             return pizzas;
         }

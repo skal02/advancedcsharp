@@ -4,15 +4,14 @@ namespace pizza.Service
 {
     public static class PriceService
     {
-        public static double Get(double usd)
+        public static double Get(double price)
         {
-            return ConvertToEur(usd);
+            return price.ConvertToEur();
         }
         
         private static double ConvertToEur(this double usd)
         {
-            Console.WriteLine(usd * 0.85);
-            return usd * 0.85;
+            return usd * 10;
         }
     }
 }

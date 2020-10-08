@@ -10,7 +10,8 @@ namespace pizza.Service
         public List<PizzaDto> GetPizzas()
         {
             return PizzaRepository.GetPizzas()
-                .Select(p => new PizzaDto(p.Id, p.Name, p.Description,  PriceService.Get(p.Price))).ToList();
+                .Select(p => new PizzaDto(p.Id, p.Name, p.Description,  PriceService.Get(p.Price)))
+                .ToList();
         }
 
         public PizzaDto GetPizzas(int id)
@@ -26,7 +27,6 @@ namespace pizza.Service
             return convertToDto(
                     PizzaRepository.GetPizzas()
                         .Where(p => p.Name == name) 
-                        //.Select(p => new PizzaDto(p.Id, p.Name, p.Description, p.Price))
                         .Select(p => p)
                         .FirstOrDefault()
                 );
