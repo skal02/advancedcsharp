@@ -24,25 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f33c3369-a663-417b-ba78-bfaaa0c748d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pizza/Controllers/BasketController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pizza/Custom/CacheManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pizza/Custom/ExceptionFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pizza/Service/BasketService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pizza/Service/dto/BasketDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csharpadvanced.sln" beforeDir="false" afterPath="$PROJECT_DIR$/csharpadvanced.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/Controllers/PizzaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/Controllers/PizzaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/Service/PizzaDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/Service/dto/PizzaDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/Service/PizzaService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/Service/PizzaService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/Service/PriceService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/Service/PriceService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/bin/Debug/netcoreapp3.1/pizza.dll" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/bin/Debug/netcoreapp3.1/pizza.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/bin/Debug/netcoreapp3.1/pizza.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/bin/Debug/netcoreapp3.1/pizza.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.dll" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/obj/Debug/netcoreapp3.1/pizza.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharpadvanced.sln.DotSettings.user" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,33 +36,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/410A92BC-5ECF-42CB-A4C0-2665C7792429/6/Console.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D0228696-B9FC-4262-A62B-D47E2177138A/19F/ApiControllerAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/csharpadvanced/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D0228696-B9FC-4262-A62B-D47E2177138A/1BB/ControllerAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/1C7A79EA-E411-4DC4-9CA3-F4602080CE0E/7e/3317f0a8/02000004pdb.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/96E96798-363F-4695-8F2F-8B8ABE6F2BA6/1/SystemClock.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/346AC160-1803-412E-B0A1-21046C4AC027/C/CallSiteFactory.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/96E96798-363F-4695-8F2F-8B8ABE6F2BA6/8/MemoryCacheExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/csharpadvanced/pizza/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1C7A79EA-E411-4DC4-9CA3-F4602080CE0E/3/AuthorizationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/13/Attribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/410A92BC-5ECF-42CB-A4C0-2665C7792429/6/Console.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/353F651B-185B-4398-BC0F-083CC05639A2/55/IActionFilter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D0228696-B9FC-4262-A62B-D47E2177138A/19F/ApiControllerAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/csharpadvanced/obj/Debug/netcoreapp3.1/csharpadvanced.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D0228696-B9FC-4262-A62B-D47E2177138A/1BB/ControllerAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/csharpadvanced/pizza/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F22B0180-F001-4475-A96E-A503C4DAFBD9/2/HostFilteringOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/57DDCD89-EA91-4490-8E70-5F3D25A40704/6/MemoryCache.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7AFCB195-1BDF-4087-9F2D-5BFCFC407B2B/27/Select.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/csharpadvanced/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/6C/Double.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/67/DateTimeOffset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D0228696-B9FC-4262-A62B-D47E2177138A/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/csharpadvanced/obj/Debug/netcoreapp3.1/csharpadvanced.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/1C7A79EA-E411-4DC4-9CA3-F4602080CE0E/7e/3317f0a8/02000004pdb.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/96E96798-363F-4695-8F2F-8B8ABE6F2BA6/1/SystemClock.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/346AC160-1803-412E-B0A1-21046C4AC027/C/CallSiteFactory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/51479320-11B4-4BAD-959D-DB092A0FD0AF/4/DeveloperExceptionPageMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/96E96798-363F-4695-8F2F-8B8ABE6F2BA6/8/MemoryCacheExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/57DDCD89-EA91-4490-8E70-5F3D25A40704/1/MemoryCacheServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D0228696-B9FC-4262-A62B-D47E2177138A/13B/ExceptionFilterAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1C7A79EA-E411-4DC4-9CA3-F4602080CE0E/3/AuthorizationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -131,6 +109,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="XThreadsFramesViewSplitterKey" value="0.6320132" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -163,6 +142,7 @@
       <workItem from="1602174282223" duration="22728000" />
       <workItem from="1602429891824" duration="223000" />
       <workItem from="1602430261288" duration="1916000" />
+      <workItem from="1602433147984" duration="386000" />
     </task>
     <servers />
   </component>
