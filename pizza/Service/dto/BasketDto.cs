@@ -3,12 +3,12 @@ namespace pizza.Service
     public class BasketDto
     {
         public string PizzaName { get; set; }
-        public string TotalPrice { get; set; }
+        public string Price { get; set; }
         
-        public BasketDto(int id, string pizzaName, string totalPrice)
+        public BasketDto(int id, string pizzaName, string price)
         {
             PizzaName = pizzaName;
-            TotalPrice = totalPrice;
+            Price = price;
         }
     }
 }

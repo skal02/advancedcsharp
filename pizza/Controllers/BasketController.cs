@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 using pizza.Custom;
@@ -11,7 +12,7 @@ namespace pizza.Controllers
     [Route("[controller]")]
     public class BasketController : ControllerBase
     {
-        private static CacheManager _instance = null;
+        private static CacheManager _instance;
 
         public static CacheManager Instance
         {
@@ -27,18 +28,26 @@ namespace pizza.Controllers
         
         private static readonly string _cacheKey = "_basket";
         private readonly PizzaService _pizzaService = new PizzaService();
-
+        
         [HttpGet]
         public ActionResult<BasketDto> Get()
         {
-            BasketDto basket;
+            List<BasketDto> baskets;
             
-            if (Instance.Cache.TryGetValue(_cacheKey, out basket))
+            if (Instance.Cache.TryGetValue(_cacheKey, out baskets))
             {
-                return Ok(basket);
+                return Ok(baskets);
             }
 
             return NotFound();
+        }
+        
+        [HttpDelete]
+        public ActionResult<BasketDto> Clear()
+        {
+            Instance.Cache.Remove(_cacheKey);
+
+            return Ok();
         }
         
         [HttpPost]
@@ -48,11 +57,18 @@ namespace pizza.Controllers
             
             if (!pizza.Equals(null))
             {
-                BasketDto basket = new BasketDto(1, pizza.Name, pizza.Price);
+                List<BasketDto> baskets;
+                Instance.Cache.TryGetValue(_cacheKey, out baskets);
                 
-                Instance.Cache.Set(_cacheKey, basket);
+                if (baskets is null)
+                {
+                    baskets = new List<BasketDto>();
+                }
+                
+                baskets.Add(new BasketDto(1, pizza.Name, pizza.Price));
+                Instance.Cache.Set(_cacheKey, baskets);
 
-                return Ok(basket);
+                return Ok(baskets);
             }
             
             return NotFound();

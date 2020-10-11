@@ -44,7 +44,6 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Service" t="Include">
-          <e p="BasketService.cs" t="Include" />
           <e p="dto" t="Include">
             <e p="BasketDto.cs" t="Include" />
             <e p="PizzaDto.cs" t="Include" />
