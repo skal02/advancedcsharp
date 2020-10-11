@@ -1,3 +1,6 @@
+using System;
+using Microsoft.VisualBasic;
+
 namespace pizza.Service
 {
     public class PizzaDto
@@ -5,18 +8,14 @@ namespace pizza.Service
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public double Price { get; set; }
-
-        public PizzaDto()
-        {
-            
-        }
-        public PizzaDto(int id, string name, string description, double price)
+        public string Price { get; set; }
+        
+        public PizzaDto(int id, string name, string description, dynamic price)
         {
             Id = id;
             Name = name;
             Description = description;
-            Price = price;
+            Price = string.Format("{0} {1}", price?.Item1, price?.Item2);
         }
     }
 }

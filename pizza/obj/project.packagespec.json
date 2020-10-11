@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/pascal.m/Projects/courses/csharpadvanced/pizza/pizza.csproj",
+    "projectUniqueName": "/Users/pascal.m/Library/Mobile Documents/com~apple~CloudDocs/Workspace/courses/csharpadvanced/pizza/pizza.csproj",
     "projectName": "pizza",
-    "projectPath": "/Users/pascal.m/Projects/courses/csharpadvanced/pizza/pizza.csproj",
-    "outputPath": "/Users/pascal.m/Projects/courses/csharpadvanced/pizza/obj/",
+    "projectPath": "/Users/pascal.m/Library/Mobile Documents/com~apple~CloudDocs/Workspace/courses/csharpadvanced/pizza/pizza.csproj",
+    "outputPath": "/Users/pascal.m/Library/Mobile Documents/com~apple~CloudDocs/Workspace/courses/csharpadvanced/pizza/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"

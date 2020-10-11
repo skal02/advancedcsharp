@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pascal.m/Projects/courses/csharpadvanced/pizza/pizza.csproj": {}
+    "/Users/pascal.m/Library/Mobile Documents/com~apple~CloudDocs/Workspace/courses/csharpadvanced/pizza/pizza.csproj": {}
   },
   "projects": {
-    "/Users/pascal.m/Projects/courses/csharpadvanced/pizza/pizza.csproj": {
+    "/Users/pascal.m/Library/Mobile Documents/com~apple~CloudDocs/Workspace/courses/csharpadvanced/pizza/pizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pascal.m/Projects/courses/csharpadvanced/pizza/pizza.csproj",
+        "projectUniqueName": "/Users/pascal.m/Library/Mobile Documents/com~apple~CloudDocs/Workspace/courses/csharpadvanced/pizza/pizza.csproj",
         "projectName": "pizza",
-        "projectPath": "/Users/pascal.m/Projects/courses/csharpadvanced/pizza/pizza.csproj",
+        "projectPath": "/Users/pascal.m/Library/Mobile Documents/com~apple~CloudDocs/Workspace/courses/csharpadvanced/pizza/pizza.csproj",
         "packagesPath": "/Users/pascal.m/.nuget/packages/",
-        "outputPath": "/Users/pascal.m/Projects/courses/csharpadvanced/pizza/obj/",
+        "outputPath": "/Users/pascal.m/Library/Mobile Documents/com~apple~CloudDocs/Workspace/courses/csharpadvanced/pizza/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pascal.m/.nuget/NuGet/NuGet.Config"
