@@ -25,7 +25,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f33c3369-a663-417b-ba78-bfaaa0c748d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csharpadvanced/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csharpadvanced.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza/Custom/ExceptionFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/pizza/Custom/ExceptionFilter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +40,10 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/410A92BC-5ECF-42CB-A4C0-2665C7792429/6/Console.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/353F651B-185B-4398-BC0F-083CC05639A2/55/IActionFilter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D0228696-B9FC-4262-A62B-D47E2177138A/19F/ApiControllerAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/csharpadvanced/obj/Debug/netcoreapp3.1/csharpadvanced.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D0228696-B9FC-4262-A62B-D47E2177138A/1BB/ControllerAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/csharpadvanced/pizza/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F22B0180-F001-4475-A96E-A503C4DAFBD9/2/HostFilteringOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/57DDCD89-EA91-4490-8E70-5F3D25A40704/6/MemoryCache.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7AFCB195-1BDF-4087-9F2D-5BFCFC407B2B/27/Select.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/csharpadvanced/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/6C/Double.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/67/DateTimeOffset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D0228696-B9FC-4262-A62B-D47E2177138A/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -84,13 +81,13 @@
         <option value="$PROJECT_DIR$/pizza/Service/PizzaService.cs" />
         <option value="$PROJECT_DIR$/pizza/Service/dto/PizzaDto.cs" />
         <option value="$PROJECT_DIR$/pizza/Service/PriceService.cs" />
-        <option value="$PROJECT_DIR$/pizza/Custom/ExceptionFilter.cs" />
         <option value="$PROJECT_DIR$/pizza/Startup.cs" />
         <option value="$PROJECT_DIR$/pizza/Controllers/PizzaController.cs" />
         <option value="$PROJECT_DIR$/pizza/Custom/CacheManager.cs" />
         <option value="$PROJECT_DIR$/pizza/Controllers/BasketController.cs" />
         <option value="$PROJECT_DIR$/pizza/Service/dto/BasketDto.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.gitignore" />
+        <option value="$PROJECT_DIR$/pizza/Custom/ExceptionFilter.cs" />
       </list>
     </option>
   </component>
