@@ -8,7 +8,7 @@ namespace pizza.Custom
     {
         public override void OnException(ExceptionContext context)
         {
-            Console.WriteLine("/!\\ WARNING!! " + context.Exception.StackTrace);
+            Console.WriteLine("/!\\ WARNING!! " + context.Exception);
             context.HttpContext.Response.StatusCode = 500;
             context.Exception = null;
 
